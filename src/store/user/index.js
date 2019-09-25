@@ -1,3 +1,6 @@
+/**
+ * user store
+ */
 export const user = {
   isLogin: false
 }
