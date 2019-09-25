@@ -1,4 +1,8 @@
-### 基于hook useReducer构建全局的store
+### 基于hook useReducer构建全局的store(react16.0.0或以上版本)
+
+- 当你的项目没有非常复杂的逻辑和数据嵌套 派生等这些时 我们可以选用useReducer 当然前提也是大家都会用
+- hook现在已经相对稳定了 我已经用它写了两个完整的移动端项目 目前还未发现任何不太友好的问题
+- 至于和redux之间如何选择 看项目需要 毕竟redux包确实是不小
 
 **项目主要是用`useReducer`和`Context`简单实现了全局的数据流**
 
